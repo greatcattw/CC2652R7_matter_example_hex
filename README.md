@@ -16,3 +16,14 @@ All of PIN is  34970112332.<br>
 All of QR-Code can get from UART log.<br>
 
 The example of lock, press BTN-2 1 sec more to enable BLE advertising.<br>
+
+![pic](pic/lock.png)<br>
+
+![pic](pic/lighting.png)<br>
+
+![pic](pic/pump.png)<br>
+
+
+
+
+
