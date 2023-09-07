@@ -12,7 +12,7 @@ All of VID is 0xFFF1.<br>
 PID of lighting is 0x8001<br>
 PID of lock is 0x8006<br>
 PID of pump is 0x800A<br>
-All of PIN is  34970112332.<br>
+All of PIN is  34970112332<br>
 All of QR-Code can get from UART log.<br>
 
 The example of lock, press BTN-2 1 sec more to enable BLE advertising.<br>
