@@ -25,8 +25,8 @@ The example of lock, press BTN-2 1 sec more to enable BLE advertising.<br>
 ![pic](pic/pump.png)<br>
 <br>
 # Useful reference
-> https://developers.home.google.com/matter/vendors/texas-instruments  
-> <br>
+https://developers.home.google.com/matter/vendors/texas-instruments  
+<br>
 > download and run it  
 wget https://software-dl.ti.com/ccs/esd/sysconfig/sysconfig-1.15.0_2826-setup.run
 <br>
