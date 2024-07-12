@@ -27,17 +27,15 @@ The example of lock, press BTN-2 1 sec more to enable BLE advertising.<br>
 # Useful reference
 https://developers.home.google.com/matter/vendors/texas-instruments  
 <br>
+> ubuntu 20.04.6 <--- MUST, MUST, MUST, u22 is unable to compile  
+> <br>
 > download and run it  
-> wget https://software-dl.ti.com/ccs/esd/sysconfig/sysconfig-1.15.0_2826-setup.run
+> wget https://software-dl.ti.com/ccs/esd/sysconfig/sysconfig-1.15.0_2826-setup.run  
 > <br>
 > <br>
-> git clone https://github.com/TexasInstruments/matter.git  
+> git clone -b v1.0-ti-branch --recurse-submodules https://github.com/TexasInstruments/matter.git  
 > cd matter  
-> git fetch origin v1.0-ti-branch  
-> git checkout FETCH_HEAD  
-> git submodule update --init --recursive  
 > source ./scripts/activate.sh  
-> pip install ecdsa  
 > cd ~/matter/examples/lighting-app/cc13x2x7_26x2x7  
 > gn gen out/debug --args="ti_sysconfig_root=\"$HOME/ti/sysconfig_1.15.0\""  
 > ninja -C out/debug  
