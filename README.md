@@ -27,7 +27,7 @@ The example of lock, press BTN-2 1 sec more to enable BLE advertising.<br>
 # Useful reference
 https://developers.home.google.com/matter/vendors/texas-instruments  
 <br>
-> ubuntu 20.04.6 <--- MUST, MUST, MUST, u22 is unable to compile  
+> ubuntu 20.04.6 <--- MUST, MUST, MUST, u22 is unable to compile. I trid this and spent a loooot of time.  
 > <br>
 > sudo apt-get install git gcc g++ pkg-config libssl-dev libdbus-1-dev \  
 >   libglib2.0-dev libavahi-client-dev ninja-build python3-venv python3-dev \  
@@ -46,6 +46,14 @@ https://developers.home.google.com/matter/vendors/texas-instruments
 > <br>
 > I tried to build ok with pump-app/cc13x2x7_26x2x7, lighting-app/cc13x2x7_26x2x7, pump-app/cc13x2x7_26x2x7, lock-app/cc13x2x7_26x2x7.
 > These hex can test with google nest hub gen 2.
+> <br>
+> uniFlash 8.7.0
+> sudo apt-get install libusb-0.1
+> sudo apt-get install libgconf2-dev
+> install uniFlash_sl.8.7.0.4818.run
+> sudo ./postinstall.sh
+> <br>
+
 <br>
 If this document help you, how about buy street cats a can of fish ?
 
