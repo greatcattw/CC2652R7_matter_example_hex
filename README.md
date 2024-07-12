@@ -50,7 +50,7 @@ https://developers.home.google.com/matter/vendors/texas-instruments
 > uniFlash 8.7.0  
 > sudo apt-get install libusb-0.1  
 > sudo apt-get install libgconf2-dev  
-> install uniFlash_sl.8.7.0.4818.run
+> install uniFlash_sl.8.7.0.4818.run  
 > cd ~/ti/uniflash_8.7.0  
 > sudo ./postinstall.sh  
 > <br>
