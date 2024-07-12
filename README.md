@@ -29,6 +29,10 @@ https://developers.home.google.com/matter/vendors/texas-instruments
 <br>
 > ubuntu 20.04.6 <--- MUST, MUST, MUST, u22 is unable to compile  
 > <br>
+> sudo apt-get install git gcc g++ pkg-config libssl-dev libdbus-1-dev \  
+>   libglib2.0-dev libavahi-client-dev ninja-build python3-venv python3-dev \  
+>   python3-pip unzip libgirepository1.0-dev libcairo2-dev libreadline-dev  
+> <br>
 > download and run it  
 > wget https://software-dl.ti.com/ccs/esd/sysconfig/sysconfig-1.15.0_2826-setup.run  
 > <br>
