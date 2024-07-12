@@ -47,11 +47,12 @@ https://developers.home.google.com/matter/vendors/texas-instruments
 > I tried to build ok with pump-app/cc13x2x7_26x2x7, lighting-app/cc13x2x7_26x2x7, pump-app/cc13x2x7_26x2x7, lock-app/cc13x2x7_26x2x7.
 > These hex can test with google nest hub gen 2.
 > <br>
-> uniFlash 8.7.0
-> sudo apt-get install libusb-0.1
-> sudo apt-get install libgconf2-dev
+> uniFlash 8.7.0  
+> sudo apt-get install libusb-0.1  
+> sudo apt-get install libgconf2-dev  
 > install uniFlash_sl.8.7.0.4818.run
-> sudo ./postinstall.sh
+> cd ~/ti/uniflash_8.7.0  
+> sudo ./postinstall.sh  
 > <br>
 
 <br>
