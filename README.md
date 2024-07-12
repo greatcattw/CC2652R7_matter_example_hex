@@ -8,8 +8,8 @@ You need to add you google account to google "Developer Console" and it is able 
 
 
 The VID and PID is at https://github.com/TexasInstruments/matter/blob/v1.0-ti-branch/examples/xxx-app/cc13x2x7_26x2x7/args.gni <br>
-All of VID is 0xFFF1.<br>
-PID of lighting is 0x8001<br>
+All of VID is 0xFFF1 <br>
+PID of lighting is 0x8001 (or 0x8005) <br>
 PID of lock is 0x8006<br>
 PID of pump is 0x800A<br>
 All of PIN is  34970112332<br>
