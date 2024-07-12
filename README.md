@@ -27,7 +27,7 @@ The example of lock, press BTN-2 1 sec more to enable BLE advertising.<br>
 # Useful reference
 https://developers.home.google.com/matter/vendors/texas-instruments  
 <br>
-> ubuntu 20.04.6 <--- MUST, MUST, MUST, u22 is unable to compile. I trid this and spent a loooot of time.  
+> ubuntu 20.04.6 <--- MUST, MUST, MUST, u22 is unable to compile. I tried this and spent a loooooot of time.  
 > <br>
 > sudo apt-get install git gcc g++ pkg-config libssl-dev libdbus-1-dev \  
 >   libglib2.0-dev libavahi-client-dev ninja-build python3-venv python3-dev \  
