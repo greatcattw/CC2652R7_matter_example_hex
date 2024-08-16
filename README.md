@@ -44,7 +44,11 @@ https://developers.home.google.com/matter/vendors/texas-instruments
 > gn gen out/debug --args="ti_sysconfig_root=\\"$HOME/ti/sysconfig_1.15.0\\""  
 > ninja -C out/debug  
 > <br>
-> I tried to build ok with pump-app/cc13x2x7_26x2x7, lighting-app/cc13x2x7_26x2x7, pump-app/cc13x2x7_26x2x7, lock-app/cc13x2x7_26x2x7.
+> I tried to build ok with pump-app/cc13x2x7_26x2x7,
+>   lighting-app/cc13x2x7_26x2x7,
+> pump-app/cc13x2x7_26x2x7,
+> lock-app/cc13x2x7_26x2x7.
+> <br>
 > These hex can test with google nest hub gen 2.
 > <br>
 > uniFlash 8.7.0  
